@@ -28,17 +28,11 @@
     <height>200</height>
    </size>
   </property>
-  <property name="font">
-   <font>
-    <family>Tahoma</family>
-    <pointsize>12</pointsize>
-   </font>
-  </property>
   <property name="windowTitle">
-   <string>Login to App</string>
+   <string>Авторизация</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(61, 141, 145);</string>
+   <string notr="true">background-color: rgb(170, 170, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -71,12 +65,9 @@
         <pointsize>12</pointsize>
        </font>
       </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(247, 255, 243);
-color: rgb(0, 0, 0);</string>
+       <string notr="true">color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);</string>
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Password</enum>
@@ -98,14 +89,14 @@ color: rgb(0, 0, 0);</string>
        <font>
         <family>Tahoma</family>
         <pointsize>12</pointsize>
-        <bold>true</bold>
        </font>
       </property>
       <property name="layoutDirection">
        <enum>Qt::LeftToRight</enum>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);
+       <string notr="true">background-color: rgb(85, 170, 255);
+border-color: rgb(0, 0, 0);
 color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
@@ -125,14 +116,8 @@ color: rgb(0, 0, 0);</string>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
-    <property name="font">
-     <font>
-      <family>Tahoma</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
     <property name="title">
-     <string>аторизация</string>
+     <string>Авторизация</string>
     </property>
    </widget>
    <addaction name="menu"/>
